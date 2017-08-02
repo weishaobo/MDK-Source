@@ -29,5 +29,7 @@ void move_test(void);
 void process(void);
 void set23();
 void func_switch(uint *addr);
+
+uint adc_sample(uchar ch);
 	
 #endif

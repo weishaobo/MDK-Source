@@ -433,6 +433,11 @@
                 </File51>
               </FileOption>
             </File>
+            <File>
+              <FileName>ad_sample.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\source\ad_sample.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

@@ -35,6 +35,7 @@ void main()
 	uchar divb = 200;
 	uchar divc = 3*divb/2;
 	//dat2char(adat, larr);
+	uint  AdSampleTest = 0;
 	
 	dat2char(adat, larr);
 	Position = position_in_array(ArrTest, arr_map, sizeof(arr_map)/2, 1);
@@ -47,6 +48,8 @@ void main()
 	cnt++;
 	
 	CompentArr[3].ErrCode = 3;
+	
+	AdSampleTest = adc_sample(0);
 	
 	while(1)
 	{
